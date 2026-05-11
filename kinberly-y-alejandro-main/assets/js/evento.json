@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Nuestra Boda | Kinberly y Alejandro",
+    "description": "Acompáñanos a celebrar nuestra boda",
+    "lang": "es",
+    "favicon": "favicon.ico"
+  },
+  "logo": {
+    "type": "text",
+    "value": "Nuestra Boda"
+  },
+  "audio": {
+    "enabled": true,
+    "src": "cancion.mp3",
+    "autoplay_on_open": true,
+    "loop": true,
+    "volume": 1,
+    "fade_in": true,
+    "icons": {
+      "play": "play.svg",
+      "pause": "pause.svg"
+    }
+  },
+  "opening": {
+    "enabled": true,
+    "phrase": {
+      "enabled": true,
+      "text": "Con mucha ilusión…",
+      "duration": 1400
+    },
+    "particles": {
+      "enabled": true,
+      "type": "leaves",
+      "count": 12
+    },
+    "scroll_hint": {
+      "enabled": true,
+      "text": "Desliza para continuar"
+    }
+  },
+  "navbar": {
+    "enabled": true,
+    "logo": {
+      "use_global": true
+    },
+    "items": [
+      {
+        "id": "inicio",
+        "label": "Inicio",
+        "href": "#inicio"
+      },
+      {
+        "id": "ubicacion",
+        "label": "Lugar",
+        "href": "#ubicacion"
+      },
+      {
+        "id": "programa",
+        "label": "Programa",
+        "href": "#programa"
+      },
+      {
+        "id": "regalos",
+        "label": "Regalos",
+        "href": "#regalos"
+      },
+      {
+        "id": "vestimenta",
+        "label": "Vestimenta",
+        "href": "#vestimenta"
+      },
+      {
+        "id": "galeria",
+        "label": "Galería",
+        "href": "#galeria"
+      },
+      {
+        "id": "rsvp",
+        "label": "Asistencia",
+        "href": "#rsvp"
+      }
+    ]
+  },
+  "hero": {
+    "enabled": true,
+    "background": "novios.png",
+    "names": {
+      "novia": "Kinberly",
+      "novio": "Alejandro"
+    },
+    "fecha_boda": "2026-07-11T18:00:00",
+    "countdown_labels": {
+      "dias": "Días",
+      "horas": "Horas",
+      "minutos": "Minutos",
+      "segundos": "Segundos"
+    }
+  },
+  "presentacion": {
+    "enabled": true,
+    "titulo": "Tenemos el honor de invitarte a nuestra boda",
+    "nombres": "KINBERLY & ALEJANDRO",
+    "frase": "Con la bendición de Dios y en compañía de:",
+    "padres": {
+      "novia": [
+        "JUANA HIGUERA PEÑUELAS",
+        "SAÚL ABEL COTA CASTRO"
+      ],
+      "novio": [
+        "CECILIA HERNÁNDEZ BARBA",
+        "LUIS ALEJANDRO RODRÍGUEZ PEDRAZA"
+      ]
+    },
+    "padrinos": [],
+    "texto_final": "Iniciaremos nuestra historia en matrimonio y tenemos el honor de invitarte a ser parte de este gran día.",
+    "imagen": "novios.svg",
+    "labels": {
+      "padres_novia": "Padres de la Novia",
+      "padres_novio": "Padres del Novio",
+      "padrinos": "Padrinos"
+    }
+  },
+  "ubicacion": {
+    "enabled": true,
+    "titulo": "Fecha y Ubicación",
+    "lugares": [
+      {
+        "enabled": false,
+        "tipo": "Ceremonia Religiosa",
+        "hora": "16:00 HRS",
+        "lugar": "Parroquia San José",
+        "direccion": [
+          "Av. Principal 123",
+          "Centro Histórico",
+          "C.P. 62000"
+        ],
+        "mapa": "https://maps.google.com"
+      },
+      {
+        "enabled": true,
+        "tipo": "Recepción",
+        "hora": "18:00 HRS",
+        "lugar": "Jardín Puente al Edén",
+        "direccion": [
+          "Av Begonias 537, Jardin Dorado",
+          "22200 Tijuana, B.C."
+        ],
+        "mapa": "https://maps.app.goo.gl/c6WXU2dJWzePKsAB6"
+      }
+    ]
+  },
+  "programa": {
+    "enabled": true,
+    "titulo": "Programa del Evento",
+    "progress_steps": [
+      25,
+      50,
+      75,
+      100
+    ],
+    "items": [
+      {
+        "hora": "18:00 - 19:00 hrs",
+        "texto": "Cóctel de Bienvenida",
+        "icono": "5.svg",
+        "lado": "left"
+      },
+      {
+        "hora": "20:00 hrs",
+        "texto": "Cena",
+        "icono": "7.svg",
+        "lado": "right"
+      },
+      {
+        "hora": "20:30 hrs",
+        "texto": "Brindis",
+        "icono": "4.svg",
+        "lado": "left"
+      },
+      {
+        "hora": "21:00 hrs",
+        "texto": "Primer baile de los novios y todos a la pista",
+        "icono": "8.svg",
+        "lado": "right"
+      }
+    ]
+  },
+  "vestimenta": {
+    "enabled": true,
+    "titulo": "Código de Vestimenta",
+    "icono": "9.svg",
+    "formal": "ETIQUETA FORMAL",
+    "labels": {
+      "mujeres": "Mujeres",
+      "hombres": "Hombres"
+    },
+    "mujeres": "El blanco lo reservamos para la novia ",
+    "hombres": ""
+  },
+  "regalos": {
+    "enabled": true,
+    "titulo": "Sugerencia de Regalos",
+    "descripcion": "Lo más importante para nosotros es compartir este día contigo.<br>Si deseas hacernos un obsequio, una contribución en efectivo será bienvenida.",
+    "items": [
+      {
+        "icono": "10.svg",
+        "label": "Efectivo"
+      }
+    ]
+  },
+  "galeria": {
+    "enabled": false,
+    "titulo": "Galería",
+    "imagenes": [
+      "gallery1.png",
+      "gallery2.png",
+      "gallery3.png",
+      "gallery4.png",
+      "gallery5.png"
+    ]
+  },
+  "rsvp": {
+    "enabled": true,
+    "whatsapp": "526642032155",
+    "titulo": "Confirmar asistencia",
+    "texto": "Nos encantaría saber si podrán acompañarnos en este día tan especial.",
+    "nota": "Favor de confirmar antes del 10 de junio.",
+    "pase": {
+      "enabled": false,
+      "cantidad": 2,
+      "label": ""
+    },
+    "mesa": {
+      "enabled": false,
+      "numero": 4,
+      "label": ""
+    },
+    "botones": {
+      "si": "Sí, asistiremos",
+      "no": "No podremos asistir"
+    },
+    "final": {
+      "titulo": "¡Gracias por confirmar!",
+      "texto": "Nos llena de alegría saber que compartirán este día con nosotros.",
+      "firma": "Kinberly & Alejandro "
+    },
+    "final_no": {
+      "titulo": "Gracias por avisarnos",
+      "texto": "Lamentamos que no puedan acompañarnos, pero agradecemos mucho que nos hayan avisado."
+    }
+  },
+  "editorial": {
+    "hero": {
+      "enabled": true,
+      "text": "Con mucha ilusión, queremos compartir este momento contigo"
+    },
+    "presentacion": {
+      "enabled": true,
+      "text": "Nada de esto sería posible sin ellos"
+    },
+    "ubicacion": {
+      "enabled": true,
+      "text": "El lugar donde comenzará todo"
+    },
+    "programa": {
+      "enabled": true,
+      "text": "Cada momento tiene su instante"
+    },
+    "vestimenta": {
+      "enabled": true,
+      "text": "Una celebración también se viste"
+    },
+    "regalos": {
+      "enabled": true,
+      "text": "Tu presencia es nuestro mejor regalo"
+    },
+    "galeria": {
+      "enabled": true,
+      "text": "Momentos que nos han traído hasta aquí"
+    },
+    "rsvp": {
+      "enabled": false,
+      "text": "Tu presencia es muy importante para nosotros"
+    }
+  },
+  "footer": {
+    "enabled": true,
+    "text": "Diseñado con amor por Shiny Maker Events"
+  }
+}
