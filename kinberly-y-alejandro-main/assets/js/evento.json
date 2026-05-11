@@ -285,6 +285,6 @@
   },
   "footer": {
     "enabled": true,
-    "text": "Diseñado con amor por Shiny Maker Events"
+    "text": "Diseñado con amor por <a href='https://shiny-maker.com/' target='_blank'>Shiny Maker Events</a>"
   }
 }

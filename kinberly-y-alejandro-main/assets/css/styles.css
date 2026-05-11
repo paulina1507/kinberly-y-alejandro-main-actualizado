@@ -2452,3 +2452,14 @@ body.footer-ready .music-btn {
 
   font-size: 5rem;
 }
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.site-footer a:hover {
+  color: var(--terracota);
+  opacity: 1;
+}
